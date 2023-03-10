@@ -1,6 +1,10 @@
-@use './assets/header';
-@use './assets/backgroundDecoration';
-@import './assets/root.scss';
+@use "./assets/header";
+@use "./assets/backgroundDecoration";
+@use "./assets/heading";
+@use "./assets/sidebar";
+@use "./assets/whatIs";
+@use "./assets/whyUs";
+@import "./assets/root.scss";
 
 body {
   background-color: $primary-color;

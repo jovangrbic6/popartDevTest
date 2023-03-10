@@ -1,0 +1,22 @@
+.whyUsSection {
+  width: 90%;
+  margin: auto;
+}
+.whyUsSection__heading {
+  width: 90%;
+  margin: auto;
+  margin-top: 20px;
+  text-transform: uppercase;
+}
+
+.whyUsSection__grid {
+  display: grid;
+  width: 90%;
+  margin: auto;
+  grid-template-columns: auto auto auto;
+  gap: 20;
+}
+
+.whyUsSection__grid-item {
+  width: 85%;
+}

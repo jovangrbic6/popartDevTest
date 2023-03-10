@@ -1,0 +1,34 @@
+.whatIsSection {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 90%;
+  margin: auto;
+}
+
+.whatIsSection__text-container {
+  width: 90%;
+  margin: auto;
+}
+
+.whatIsSection__text-main {
+  width: 70%;
+  text-transform: uppercase;
+  padding-top: 160px;
+}
+
+.whatIsSection__text-sub {
+  width: 75%;
+}
+
+.whatIsSection__video-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  padding-top: 80px;
+}
+
+.whatIsSection__video-placeholder {
+  width: 90%;
+}

@@ -1,6 +1,10 @@
 .headWrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
   width: 90%;
-  margin: auto;
+  margin: 0 auto;
   display: flex;
   justify-content: space-between;
   padding-top: 16px;
@@ -33,6 +37,176 @@
   position: absolute;
   top: 80px;
   left: 50%;
+}
+
+.firstPageDecoration__yellowOctagon {
+  position: absolute;
+  top: 78%;
+  left: 59%;
+}
+
+.firstPageDecoration__yellowHexagonDetailed {
+  position: absolute;
+  top: 65%;
+  left: 30%;
+}
+
+.firstPageDecoration__arrowsIcon {
+  position: absolute;
+  bottom: 0;
+  left: 40%;
+}
+
+.whatIsDecoration__arrowsIcon {
+  position: absolute;
+  right: 24%;
+  top: 30%;
+}
+
+.whatIsDecoration__yellowNineCornerDetailed {
+  position: absolute;
+  right: 5%;
+  top: 25%;
+}
+
+.heading {
+  width: 90%;
+  margin: auto;
+}
+
+.heading__main {
+  margin-top: 240px;
+  width: 100%;
+}
+
+.heading__main-text {
+  text-transform: uppercase;
+}
+
+.heading__sub {
+  float: right;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.heading__sub-text {
+  width: 100%;
+}
+
+.heading__sub-button {
+  position: relative;
+  width: 20%;
+  height: 50px;
+  background: #d5ff2f;
+  border: none;
+}
+
+.heading__sub-button:after,
+.heading__sub-button:before {
+  position: absolute;
+  content: "";
+  z-index: 1;
+  top: 0;
+  width: 0px;
+  background: #361281;
+  border-top: 25px transparent solid;
+  border-bottom: 25px transparent solid;
+}
+
+.heading__sub-button:before {
+  left: 0;
+  border-right: 15px #d5ff2f solid;
+}
+
+.heading__sub-button:after {
+  right: 0;
+  border-left: 15px #d5ff2f solid;
+}
+
+.heading__imageWrapper {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: auto;
+  padding-top: 300px;
+}
+
+.heading__imageWrapper-image {
+  width: 90%;
+  height: auto;
+}
+
+.sidebarWrapper {
+  position: fixed;
+  right: 32px;
+  top: 20%;
+  display: flex;
+  flex-direction: column;
+  width: 24px;
+}
+
+.sidebarWrapper__icon {
+  margin-top: 24px;
+}
+
+.whatIsSection {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 90%;
+  margin: auto;
+}
+
+.whatIsSection__text-container {
+  width: 90%;
+  margin: auto;
+}
+
+.whatIsSection__text-main {
+  width: 70%;
+  text-transform: uppercase;
+  padding-top: 160px;
+}
+
+.whatIsSection__text-sub {
+  width: 75%;
+}
+
+.whatIsSection__video-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  padding-top: 80px;
+}
+
+.whatIsSection__video-placeholder {
+  width: 90%;
+}
+
+.whyUsSection {
+  width: 90%;
+  margin: auto;
+}
+
+.whyUsSection__heading {
+  width: 90%;
+  margin: auto;
+  margin-top: 20px;
+  text-transform: uppercase;
+}
+
+.whyUsSection__grid {
+  display: grid;
+  width: 90%;
+  margin: auto;
+  grid-template-columns: auto auto auto;
+  gap: 20;
+}
+
+.whyUsSection__grid-item {
+  width: 85%;
 }
 
 body {
