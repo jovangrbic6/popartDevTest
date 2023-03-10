@@ -1,0 +1,15 @@
+@use './assets/header';
+@use './assets/backgroundDecoration';
+@import './assets/root.scss';
+
+body {
+  background-color: $primary-color;
+}
+
+.white-text {
+  color: $white;
+}
+
+.yellow-text {
+  color: $yellow;
+}

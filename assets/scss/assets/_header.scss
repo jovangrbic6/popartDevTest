@@ -1,0 +1,31 @@
+@import './root';
+.headWrapper {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 16px;
+}
+
+.headWrapper__image {
+  height: 40px;
+}
+
+.headWrapper__menu {
+  width: 30%;
+}
+
+.headWrapper__menu-list {
+  float: right;
+  display: flex;
+  list-style: none;
+  width: 50%;
+  justify-content: space-between;
+}
+
+.headWrapper__menu-listItem {
+  font-size: small;
+  line-height: normal;
+  text-align: center;
+  color: $white;
+}
