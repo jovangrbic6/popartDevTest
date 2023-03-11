@@ -1,39 +1,42 @@
 @import "./root";
 
-.heading {
-  width: 90%;
-  margin: auto;
+.heroSection {
+  position: relative;
+  padding-left: 9rem;
+  padding-right: 9rem;
 }
-.heading__main {
-  margin-top: 240px;
-  width: 100%;
+.heroSection__content {
+  padding-top: 320px;
+  max-width: 1560px;
 }
 
-.heading__main-text {
+.heroSection__content-text {
   text-transform: uppercase;
 }
 
-.heading__sub {
+.heroSection__sub {
   float: right;
   width: 50%;
   display: flex;
   flex-direction: column;
+  margin-top: 64px;
 }
 
-.heading__sub-text {
+.heroSection__sub-text {
   width: 100%;
 }
 
-.heading__sub-button {
+.heroSection__sub-button {
   position: relative;
   width: 20%;
   height: 50px;
   background: $yellow;
   border: none;
+  margin-top: 32px;
 }
 
-.heading__sub-button:after,
-.heading__sub-button:before {
+.heroSection__sub-button:after,
+.heroSection__sub-button:before {
   position: absolute;
   content: "";
   z-index: 1;
@@ -44,16 +47,16 @@
   border-bottom: 25px transparent solid;
 }
 
-.heading__sub-button:before {
+.heroSection__sub-button:before {
   left: 0;
   border-right: 15px $yellow solid;
 }
-.heading__sub-button:after {
+.heroSection__sub-button:after {
   right: 0;
   border-left: 15px $yellow solid;
 }
 
-.heading__imageWrapper {
+.heroSection__imageWrapper {
   display: flex;
   justify-content: center;
   width: 100%;
@@ -61,7 +64,7 @@
   padding-top: 300px;
 }
 
-.heading__imageWrapper-image {
+.heroSection__imageWrapper-image {
   width: 90%;
   height: auto;
 }
