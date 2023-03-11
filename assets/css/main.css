@@ -272,7 +272,7 @@ header {
   height: auto;
 }
 
-.sidebarWrapper {
+.social {
   position: fixed;
   right: 32px;
   top: 20%;
@@ -281,7 +281,7 @@ header {
   width: 24px;
 }
 
-.sidebarWrapper__icon {
+.social__icon {
   margin-top: 24px;
 }
 
