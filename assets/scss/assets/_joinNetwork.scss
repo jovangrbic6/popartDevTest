@@ -1,53 +1,59 @@
 .joinNetworkSection {
-  width: 90%;
-  height: 1000px;
-  margin: auto;
-  margin-top: 200px;
-  position: relative;
+  width: 100%;
+  max-width: 1266px;
+  padding-left: 258px;
 }
 
 .joinNetworkSection__heading {
-  width: 90%;
-  margin: auto;
+  max-width: 939px;
+  width: 100%;
+  padding-left: 29px;
 }
 
 .joinNetworkSection__heading-text {
-  width: 60%;
   text-transform: uppercase;
 }
 
 .joinNetworkSection__social {
-  width: 90%;
-  margin: auto;
-  margin-top: 280px;
+  position: relative;
+  max-width: 1237px;
+  height: 615px;
+  margin-top: 57px;
+  margin-left: 29px;
+}
+
+.joinNetworkSection__social-discord {
+  position: absolute;
+  top: 208px;
+  left: 0;
 }
 
 .joinNetworkSection__social-github {
   position: absolute;
-  top: 29%;
-  left: 23%;
+  top: 0;
+  left: 308px;
 }
 
 .joinNetworkSection__social-stack {
   position: absolute;
-  bottom: 32%;
-  left: 44.5%;
+  top: 142px;
+  right: 315px;
 }
 
 .joinNetworkSection__social-quora {
   position: absolute;
-  bottom: 15%;
-  right: 40%;
+  bottom: 52px;
+  right: 293px;
 }
 
 .joinNetworkSection__social-reddit {
   position: absolute;
-  bottom: 10%;
-  right: 29%;
+  bottom: 0;
+  right: 98px;
 }
 
 .joinNetworkSection__social-youtube {
   position: absolute;
-  bottom: 27%;
-  right: 23%;
+  bottom: 174px;
+  right: 0;
 }

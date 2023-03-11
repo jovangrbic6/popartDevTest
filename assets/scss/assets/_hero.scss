@@ -8,6 +8,7 @@
 .heroSection__content {
   padding-top: 320px;
   max-width: 1560px;
+  margin: auto;
 }
 
 .heroSection__content-text {
@@ -24,15 +25,17 @@
 
 .heroSection__sub-text {
   width: 100%;
+  letter-spacing: -0.04em;
 }
 
 .heroSection__sub-button {
   position: relative;
-  width: 20%;
-  height: 50px;
+  max-width: 217px;
+  height: 65px;
   background: $yellow;
   border: none;
   margin-top: 32px;
+  cursor: pointer;
 }
 
 .heroSection__sub-button:after,
@@ -43,17 +46,17 @@
   top: 0;
   width: 0px;
   background: $primary-color;
-  border-top: 25px transparent solid;
-  border-bottom: 25px transparent solid;
+  border-top: 33px transparent solid;
+  border-bottom: 33px transparent solid;
 }
 
 .heroSection__sub-button:before {
   left: 0;
-  border-right: 15px $yellow solid;
+  border-right: 23px $yellow solid;
 }
 .heroSection__sub-button:after {
   right: 0;
-  border-left: 15px $yellow solid;
+  border-left: 23px $yellow solid;
 }
 
 .heroSection__imageWrapper {
@@ -61,10 +64,12 @@
   justify-content: center;
   width: 100%;
   margin: auto;
-  padding-top: 300px;
+  padding-top: 360px;
+  padding-bottom: 280px;
 }
 
 .heroSection__imageWrapper-image {
-  width: 90%;
+  width: 100%;
+  max-width: 1346px;
   height: auto;
 }

@@ -1,38 +1,47 @@
 .contributorsSection {
-  width: 90%;
+  width: 100%;
+  max-width: 1375px;
   margin: auto;
-  margin-top: 300px;
+  padding-bottom: 307px;
 }
 
 .contributorsSection__heading {
-  width: 90%;
   margin: auto;
   text-transform: uppercase;
   margin-bottom: 80px;
 }
 
 .contributorsSection__grid {
-  width: 90%;
   margin: auto;
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 80px;
+  gap: 98px;
+  row-gap: 66px;
 }
 
 .contributorsSection__grid-item {
-  width: 100%;
+  width: 383px;
+}
+
+.contributorsSection__grid-item p:first-child {
+  letter-spacing: -0.02em;
+}
+
+.contributorsSection__grid-item p:last-child {
+  letter-spacing: -0.04em;
 }
 
 .contributorsSection__grid-itemImage {
-  margin-bottom: 20px;
+  width: 250px;
+  height: 250px;
+  margin-bottom: 30px;
 }
 
 .contributorsSection__subText {
-  width: 90%;
-  margin: auto;
-  margin-top: 100px;
+  margin-top: 105px;
 }
 
 .contributorsSection__subText-text {
-  width: 50%;
+  max-width: 687px;
+  width: 100%;
 }

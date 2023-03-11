@@ -6,36 +6,126 @@
 
 .heroSection__decoration-yellowOctagon {
   position: absolute;
-  top: 38.5%;
-  left: 58.5%;
+  top: 34.5%;
+  left: 61.2%;
 }
 
 .heroSection__decoration-yellowHexagonDetailed {
   position: absolute;
-  top: 36%;
-  left: 31%;
+  top: 32%;
+  left: 33.5%;
 }
 
 .heroSection__decoration-arrowsIcon {
   position: absolute;
-  bottom: 50%;
+  bottom: 55%;
   left: 43%;
 }
 
 .heroSection__decoration-redCircle {
   position: absolute;
-  bottom: 46%;
+  bottom: 48%;
   left: 0;
+}
+
+.heroSection__decoration-blueOctagon {
+  position: absolute;
+  bottom: 4%;
+  right: 1%;
 }
 
 .whatIsDecoration__arrowsIcon {
   position: absolute;
-  right: 24%;
-  top: 30%;
+  right: 25%;
+  top: 18%;
 }
 
 .whatIsDecoration__yellowNineCornerDetailed {
   position: absolute;
-  right: 5%;
-  top: 25%;
+  right: 6%;
+  top: 16%;
+}
+
+.whatIsDecoration__orangeOctagon {
+  position: absolute;
+  left: 0;
+  bottom: 15%;
+}
+
+.whyUsDecoration__blueOctagonLarge {
+  position: absolute;
+  right: 0;
+  top: 360px;
+}
+
+.whyUsDecoration__yellowHexagonConnected {
+  position: absolute;
+  left: 30%;
+  top: 43%;
+}
+
+.whyUsDecoration__yellowOctagon {
+  position: absolute;
+  top: 0;
+  right: 140px;
+}
+
+.whyUsDecoration__yellowOctagonDetailed {
+  position: absolute;
+  bottom: 193px;
+  left: 124px;
+}
+
+.whyUsDecoration__arrowsIcon {
+  position: absolute;
+  left: 50%;
+  bottom: 98px;
+}
+
+.testemonialDecoration__founderHexagons {
+  position: absolute;
+  left: 640px;
+  top: 331px;
+}
+
+.testemonialDecoration__yellowHexagon {
+  position: absolute;
+  right: 131px;
+  top: 541px;
+}
+
+.contributorsDecoration__redCircle {
+  position: absolute;
+  left: 24px;
+  bottom: 103px;
+}
+
+.contributorsDecoration__arrowsIcon {
+  position: absolute;
+  right: 506px;
+  bottom: 21px;
+}
+
+.contributorsDecoration__yellowHexagonDetailed {
+  position: absolute;
+  bottom: 139px;
+  right: 95px;
+}
+
+.introductionDecoration__yellowNineCornerDetailed {
+  position: absolute;
+  left: 131px;
+  top: 121px;
+}
+
+.introductionDecoration__yellowHeptagon {
+  position: absolute;
+  top: 185px;
+  right: 688px;
+}
+
+.introductionDecoration__orangeOctagon {
+  position: absolute;
+  top: 11px;
+  right: 30px;
 }

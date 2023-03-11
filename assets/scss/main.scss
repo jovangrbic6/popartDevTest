@@ -1,7 +1,7 @@
 @use "./assets/reset";
 @use "./assets/header";
 @use "./assets/backgroundDecoration";
-@use "./assets/heading";
+@use "./assets/hero";
 @use "./assets/social";
 @use "./assets/whatIs";
 @use "./assets/whyUs";
@@ -14,6 +14,10 @@
 
 body {
   background-color: $primary-color;
+}
+
+section {
+  position: relative;
 }
 
 .white-text {

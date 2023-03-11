@@ -3,15 +3,16 @@ header {
   top: 0;
   right: 0;
   left: 0;
-  width: 80%;
+  width: 85%;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
   padding: 32px 80px 32px 80px;
+  z-index: 2;
 }
 
 .header__menu {
-  width: 25%;
+  width: 22%;
 }
 
 .header__menu-list {

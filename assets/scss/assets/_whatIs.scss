@@ -1,34 +1,31 @@
 .whatIsSection {
-  display: flex;
-  flex-direction: column;
-  position: relative;
-  width: 90%;
-  margin: auto;
-}
-
-.whatIsSection__text-container {
-  width: 90%;
+  max-width: 1375px;
+  padding-left: 29px;
   margin: auto;
 }
 
 .whatIsSection__text-main {
-  width: 70%;
+  width: 100%;
+  max-width: 904px;
   text-transform: uppercase;
-  padding-top: 160px;
+  letter-spacing: -0.03em;
+  margin-bottom: 80px;
 }
 
 .whatIsSection__text-sub {
-  width: 75%;
+  width: 100%;
+  max-width: 886px;
+  letter-spacing: -0.04em;
+}
+
+.whatIsSection__text-subSec {
+  width: 100%;
+  max-width: 886px;
+  margin-top: 40px;
+  letter-spacing: -0.04em;
 }
 
 .whatIsSection__video-container {
   width: 100%;
-  display: flex;
-  justify-content: center;
-  margin: auto;
   padding-top: 80px;
-}
-
-.whatIsSection__video-placeholder {
-  width: 90%;
 }

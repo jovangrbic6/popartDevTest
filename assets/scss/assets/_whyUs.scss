@@ -1,22 +1,33 @@
 .whyUsSection {
-  width: 90%;
+  width: 100%;
+  max-width: 1376px;
+  padding-left: 29px;
+  padding-bottom: 412px;
   margin: auto;
 }
 .whyUsSection__heading {
-  width: 90%;
-  margin: auto;
   margin-top: 20px;
+  margin-bottom: 100px;
   text-transform: uppercase;
 }
 
 .whyUsSection__grid {
   display: grid;
-  width: 90%;
   margin: auto;
   grid-template-columns: auto auto auto;
-  gap: 20;
+  gap: 60px;
+  row-gap: 140px;
 }
 
 .whyUsSection__grid-item {
   width: 85%;
+}
+
+.whyUsSection__grid-item p:not(:last-child) {
+  letter-spacing: 0.02em;
+}
+
+.whyUsSection__grid-item p:not(:first-child) {
+  letter-spacing: -0.04em;
+  margin-top: 40px;
 }

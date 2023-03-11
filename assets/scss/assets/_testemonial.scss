@@ -1,21 +1,32 @@
 .testemonialSection {
-  width: 90%;
-  margin: auto;
-  margin-top: 300px;
-}
-
-.testemonialSection__wrapper {
-  width: 90%;
+  width: 100%;
+  width: 1347px;
   margin: auto;
   display: flex;
+  padding-bottom: 380px;
+}
+
+.testemonialSection__image {
+  width: 458px;
+  height: 458px;
 }
 
 .testemonialSection__text {
-  margin-left: 80px;
-  width: 60%;
+  margin-left: 40px;
+  width: 100%;
+  max-width: 779px;
+}
+
+.testemonialSection__text-heading p:last-child {
+  letter-spacing: -0.02em;
 }
 
 .testemonialSection__text-subtext {
   display: flex;
   margin-top: 40px;
+  letter-spacing: -0.04em;
+}
+
+.testemonialSection__text-subtext p {
+  margin-left: 16px;
 }
