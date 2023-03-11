@@ -1,4 +1,4 @@
-@import "./root";
+@import './root';
 
 .heroSection {
   position: relative;
@@ -41,7 +41,7 @@
 .heroSection__sub-button:after,
 .heroSection__sub-button:before {
   position: absolute;
-  content: "";
+  content: '';
   z-index: 1;
   top: 0;
   width: 0px;
