@@ -10,14 +10,22 @@
 @use "./assets/joinNetwork";
 @use "./assets/introduction";
 @use "./assets/news";
+@use "./assets/footer";
 @import "./assets/root.scss";
+
+html {
+  max-width: 1920px;
+}
 
 body {
   background-color: $primary-color;
 }
 
-section {
+section,
+footer {
   position: relative;
+  padding-left: 9rem;
+  padding-right: 9rem;
 }
 
 .white-text {
@@ -26,4 +34,12 @@ section {
 
 .yellow-text {
   color: $yellow;
+}
+
+@media screen and (max-width: 1366px) {
+  section,
+  footer {
+    padding-left: 12rem;
+    padding-right: 12rem;
+  }
 }

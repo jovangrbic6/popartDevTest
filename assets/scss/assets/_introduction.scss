@@ -2,11 +2,12 @@
   width: 100%;
   max-width: 1375px;
   padding-top: 143px;
-  padding-left: 258px;
+  margin: auto;
 }
 
 .introductionSection__heading {
-  padding-left: 29px;
+  width: 70%;
+  position: relative;
 }
 
 .introductionSection__heading-text {
@@ -17,10 +18,15 @@
 
 .introductionSection__video {
   margin-top: 49px;
-  padding-left: 29px;
 }
 
 .introductionSection__video-placeholder {
   width: 100%;
   max-width: 1346px;
+}
+
+@media screen and (max-width: 1366px) {
+  .introductionSection__heading {
+    width: 77%;
+  }
 }

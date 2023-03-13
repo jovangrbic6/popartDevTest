@@ -1,6 +1,6 @@
 .whatIsSection {
-  max-width: 1375px;
-  padding-left: 29px;
+  width: 100%;
+  max-width: 1346px;
   margin: auto;
 }
 
@@ -28,4 +28,14 @@
 .whatIsSection__video-container {
   width: 100%;
   padding-top: 80px;
+}
+
+.whatIsSection__video-container video {
+  width: 100%;
+}
+
+@media screen and (max-width: 1366px) {
+  .whatIsSection__text-container {
+    width: 75%;
+  }
 }

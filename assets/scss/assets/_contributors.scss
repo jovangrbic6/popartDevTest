@@ -2,7 +2,6 @@
   width: 100%;
   max-width: 1375px;
   margin: auto;
-  padding-bottom: 307px;
 }
 
 .contributorsSection__heading {
@@ -39,6 +38,8 @@
 
 .contributorsSection__subText {
   margin-top: 105px;
+  padding-bottom: 307px;
+  position: relative;
 }
 
 .contributorsSection__subText-text {

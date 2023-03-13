@@ -1,9 +1,14 @@
 .testemonialSection {
   width: 100%;
-  width: 1347px;
+  max-width: 1347px;
   margin: auto;
-  display: flex;
   padding-bottom: 380px;
+}
+
+.testemonialSection__content {
+  display: flex;
+  position: relative;
+  padding-bottom: 8px;
 }
 
 .testemonialSection__image {

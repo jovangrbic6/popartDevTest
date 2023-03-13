@@ -1,10 +1,5 @@
-@import './root';
+@import "./root";
 
-.heroSection {
-  position: relative;
-  padding-left: 9rem;
-  padding-right: 9rem;
-}
 .heroSection__content {
   padding-top: 320px;
   max-width: 1560px;
@@ -16,11 +11,14 @@
 }
 
 .heroSection__sub {
+  position: relative;
   float: right;
   width: 50%;
   display: flex;
   flex-direction: column;
   margin-top: 64px;
+  padding-bottom: 50px;
+  padding-left: 320px;
 }
 
 .heroSection__sub-text {
@@ -41,8 +39,7 @@
 .heroSection__sub-button:after,
 .heroSection__sub-button:before {
   position: absolute;
-  content: '';
-  z-index: 1;
+  content: "";
   top: 0;
   width: 0px;
   background: $primary-color;
@@ -61,6 +58,7 @@
 
 .heroSection__imageWrapper {
   display: flex;
+  position: relative;
   justify-content: center;
   width: 100%;
   margin: auto;

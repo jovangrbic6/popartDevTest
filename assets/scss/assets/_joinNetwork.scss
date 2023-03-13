@@ -1,13 +1,12 @@
 .joinNetworkSection {
   width: 100%;
-  max-width: 1266px;
-  padding-left: 258px;
+  max-width: 1375px;
+  margin: auto;
 }
 
 .joinNetworkSection__heading {
   max-width: 939px;
   width: 100%;
-  padding-left: 29px;
 }
 
 .joinNetworkSection__heading-text {
@@ -19,7 +18,6 @@
   max-width: 1237px;
   height: 615px;
   margin-top: 57px;
-  margin-left: 29px;
 }
 
 .joinNetworkSection__social-discord {
@@ -56,4 +54,11 @@
   position: absolute;
   bottom: 174px;
   right: 0;
+}
+
+@media screen and (max-width: 1366px) {
+  .joinNetworkSection__heading-text {
+    text-transform: uppercase;
+    width: 80%;
+  }
 }

@@ -1,0 +1,29 @@
+.footerSection {
+  display: flex;
+}
+
+.footerSection__links {
+  display: flex;
+  flex-direction: column;
+}
+
+.footerSection__links a {
+  text-decoration: none;
+}
+
+.footerSection__icons {
+  width: 20%;
+  display: flex;
+}
+
+.footerSection__icons-right,
+.footerSection__icons-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.footerSection__icons-right img,
+.footerSection__icons-left img {
+  padding: 8px;
+}

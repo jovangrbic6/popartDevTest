@@ -6,19 +6,19 @@
 
 .heroSection__decoration-yellowOctagon {
   position: absolute;
-  top: 34.5%;
-  left: 61.2%;
+  bottom: 0;
+  left: 33.5rem;
 }
 
 .heroSection__decoration-yellowHexagonDetailed {
   position: absolute;
-  top: 32%;
-  left: 33.5%;
+  left: 0;
+  top: 5rem;
 }
 
 .heroSection__decoration-arrowsIcon {
   position: absolute;
-  bottom: 55%;
+  top: 10rem;
   left: 43%;
 }
 
@@ -84,8 +84,8 @@
 
 .testemonialDecoration__founderHexagons {
   position: absolute;
-  left: 640px;
-  top: 331px;
+  bottom: 0;
+  left: 24rem;
 }
 
 .testemonialDecoration__yellowHexagon {
@@ -97,12 +97,12 @@
 .contributorsDecoration__redCircle {
   position: absolute;
   left: 24px;
-  bottom: 103px;
+  bottom: 8%;
 }
 
 .contributorsDecoration__arrowsIcon {
   position: absolute;
-  right: 506px;
+  right: 15rem;
   bottom: 21px;
 }
 
@@ -120,8 +120,8 @@
 
 .introductionDecoration__yellowHeptagon {
   position: absolute;
-  top: 185px;
-  right: 688px;
+  right: 0;
+  bottom: 50%;
 }
 
 .introductionDecoration__orangeOctagon {
@@ -139,7 +139,7 @@
 .newsDecoration__arrowsIcon {
   position: absolute;
   top: 237px;
-  right: 787px;
+  left: 55%;
 }
 
 .newsDecoration__yellowOctagonDetailed {
@@ -158,4 +158,13 @@
   position: absolute;
   bottom: 41px;
   right: 389px;
+}
+
+@media screen and (max-width: 1366px) {
+  .introductionDecoration__yellowNineCornerDetailed {
+    left: 60px;
+  }
+  .newsDecoration__yellowOctagonDetailed {
+    right: 60px;
+  }
 }
