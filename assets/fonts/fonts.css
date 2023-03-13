@@ -1,99 +1,99 @@
 @font-face {
-  font-family: "Aspergit";
-  src: url("./aspergit-webfont.woff") format("woff"),
-    url("aspergit-webfont.woff2") format("woff2");
+  font-family: 'Aspergit';
+  src: url('./aspergit-webfont.woff') format('woff'),
+    url('aspergit-webfont.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: "Aspergit";
-  src: url("./aspergit_bold-webfont.woff2") format("woff2"),
-    url("./aspergit_bold-webfont.woff") format("woff");
+  font-family: 'Aspergit';
+  src: url('./aspergit_bold-webfont.woff2') format('woff2'),
+    url('./aspergit_bold-webfont.woff') format('woff');
   font-weight: bold;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: "Aspergit";
-  src: url("./aspergit_light-webfont.woff") format("woff"),
-    url("./aspergit_light-webfont.woff2") format("woff2");
+  font-family: 'Aspergit';
+  src: url('./aspergit_light-webfont.woff') format('woff'),
+    url('./aspergit_light-webfont.woff2') format('woff2');
   font-weight: 300;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: "spartanblack";
-  src: url("spartan-black-webfont.woff2") format("woff2"),
-    url("spartan-black-webfont.woff") format("woff");
+  font-family: 'spartanblack';
+  src: url('spartan-black-webfont.woff2') format('woff2'),
+    url('spartan-black-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
-  font-family: "spartan";
-  src: url("spartan-bold-webfont.woff2") format("woff2"),
-    url("spartan-bold-webfont.woff") format("woff");
+  font-family: 'spartan';
+  src: url('spartan-bold-webfont.woff2') format('woff2'),
+    url('spartan-bold-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
-  font-family: "spartan";
-  src: url("spartan-extrabold-webfont.woff2") format("woff2"),
-    url("spartan-extrabold-webfont.woff") format("woff");
+  font-family: 'spartan';
+  src: url('spartan-extrabold-webfont.woff2') format('woff2'),
+    url('spartan-extrabold-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
-  font-family: "spartan";
-  src: url("spartan-extralight-webfont.woff2") format("woff2"),
-    url("spartan-extralight-webfont.woff") format("woff");
+  font-family: 'spartan';
+  src: url('spartan-extralight-webfont.woff2') format('woff2'),
+    url('spartan-extralight-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
-  font-family: "spartan";
-  src: url("spartan-light-webfont.woff2") format("woff2"),
-    url("spartan-light-webfont.woff") format("woff");
+  font-family: 'spartan';
+  src: url('spartan-light-webfont.woff2') format('woff2'),
+    url('spartan-light-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
-  font-family: "spartan";
-  src: url("spartan-medium-webfont.woff2") format("woff2"),
-    url("spartan-medium-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "spartan";
-  src: url("spartan-regular-webfont.woff2") format("woff2"),
-    url("spartan-regular-webfont.woff") format("woff");
+  font-family: 'spartan';
+  src: url('spartan-medium-webfont.woff2') format('woff2'),
+    url('spartan-medium-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "spartan";
-  src: url("spartan-semibold-webfont.woff2") format("woff2"),
-    url("spartan-semibold-webfont.woff") format("woff");
+  font-family: 'spartan';
+  src: url('spartan-regular-webfont.woff2') format('woff2'),
+    url('spartan-regular-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "spartan";
-  src: url("spartan-thin-webfont.woff2") format("woff2"),
-    url("spartan-thin-webfont.woff") format("woff");
+  font-family: 'spartan';
+  src: url('spartan-semibold-webfont.woff2') format('woff2'),
+    url('spartan-semibold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'spartan';
+  src: url('spartan-thin-webfont.woff2') format('woff2'),
+    url('spartan-thin-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
 
 .aspergit-113-700 {
-  font-family: "Aspergit";
+  font-family: 'Aspergit';
   font-style: normal;
   font-weight: 700;
   font-size: 113px;
@@ -101,7 +101,7 @@
 }
 
 .aspergit-94-700 {
-  font-family: "Aspergit";
+  font-family: 'Aspergit';
   font-style: normal;
   font-weight: 700;
   font-size: 94px;
@@ -109,7 +109,7 @@
 }
 
 .aspergit-54-700 {
-  font-family: "Aspergit";
+  font-family: 'Aspergit';
   font-style: normal;
   font-weight: 700;
   font-size: 54px;
@@ -117,15 +117,15 @@
 }
 
 .aspergit-44-700 {
-  font-family: "Aspergit";
+  font-family: 'Aspergit';
   font-style: normal;
   font-weight: 700;
-  font-size: 44px;
+  font-size: 38px;
   line-height: 50px;
 }
 
 .aspergit-30-700 {
-  font-family: "Aspergit";
+  font-family: 'Aspergit';
   font-style: normal;
   font-weight: 700;
   font-size: 30px;
@@ -133,7 +133,7 @@
 }
 
 .aspergit-24-700 {
-  font-family: "Aspergit";
+  font-family: 'Aspergit';
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -141,7 +141,7 @@
 }
 
 .aspergit-18-700 {
-  font-family: "Aspergit";
+  font-family: 'Aspergit';
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -149,7 +149,7 @@
 }
 
 .spartan-30-300 {
-  font-family: "spartan";
+  font-family: 'spartan';
   font-style: normal;
   font-weight: 300;
   font-size: 26px;
@@ -157,7 +157,7 @@
 }
 
 .spartan-28-300 {
-  font-family: "spartan";
+  font-family: 'spartan';
   font-style: normal;
   font-weight: 300;
   font-size: 24px;
@@ -166,7 +166,7 @@
 
 @media screen and (max-width: 1366px) {
   .aspergit-113-700 {
-    font-family: "Aspergit";
+    font-family: 'Aspergit';
     font-style: normal;
     font-weight: 700;
     font-size: 78px;
@@ -174,7 +174,7 @@
   }
 
   .aspergit-94-700 {
-    font-family: "Aspergit";
+    font-family: 'Aspergit';
     font-style: normal;
     font-weight: 700;
     font-size: 74px;
@@ -182,7 +182,7 @@
   }
 
   .aspergit-54-700 {
-    font-family: "Aspergit";
+    font-family: 'Aspergit';
     font-style: normal;
     font-weight: 700;
     font-size: 44px;
@@ -190,7 +190,7 @@
   }
 
   .aspergit-44-700 {
-    font-family: "Aspergit";
+    font-family: 'Aspergit';
     font-style: normal;
     font-weight: 700;
     font-size: 34px;
@@ -198,7 +198,7 @@
   }
 
   .aspergit-30-700 {
-    font-family: "Aspergit";
+    font-family: 'Aspergit';
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
@@ -206,7 +206,7 @@
   }
 
   .aspergit-24-700 {
-    font-family: "Aspergit";
+    font-family: 'Aspergit';
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
@@ -214,7 +214,7 @@
   }
 
   .aspergit-18-700 {
-    font-family: "Aspergit";
+    font-family: 'Aspergit';
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
@@ -222,7 +222,7 @@
   }
 
   .spartan-30-300 {
-    font-family: "spartan";
+    font-family: 'spartan';
     font-style: normal;
     font-weight: 300;
     font-size: 22px;
@@ -230,7 +230,7 @@
   }
 
   .spartan-28-300 {
-    font-family: "spartan";
+    font-family: 'spartan';
     font-style: normal;
     font-weight: 300;
     font-size: 20px;
