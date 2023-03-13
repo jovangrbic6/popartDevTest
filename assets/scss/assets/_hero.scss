@@ -1,7 +1,7 @@
 @import './root';
 
 .heroSection {
-  padding: 278px 210px 0;
+  padding: 278px 210px 268px;
 }
 
 .heroSection__content-text {
@@ -10,7 +10,7 @@
 
 .heroSection__sub {
   position: relative;
-  float: right;
+  margin-left: auto;
   width: 100%;
   max-width: 657px;
   display: flex;
@@ -60,12 +60,9 @@
   justify-content: center;
   width: 100%;
   margin: auto;
-  padding-top: 268px;
   padding-bottom: 280px;
 }
 
 .heroSection__imageWrapper-image {
-  width: 100%;
-  max-width: 1346px;
-  height: auto;
+  max-width: 100%;
 }
