@@ -1,16 +1,20 @@
 header {
   position: fixed;
+  height: 86px;
+  align-items: center;
   top: 0;
   left: 0;
-  width: 90%;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   padding: 32px 100px 32px 100px;
   z-index: 2;
+  backdrop-filter: blur(10px);
 }
 
-.header__menu {
-  width: 20%;
+header img {
+  max-width: 217px;
+  width: 100%;
 }
 
 .header__menu-list {
@@ -21,6 +25,7 @@ header {
 
 .header__menu-listItem {
   text-align: center;
+  margin: 0 18px;
 }
 
 .header__menu-listItem a {
