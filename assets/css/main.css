@@ -221,13 +221,14 @@ header img {
 .whyUsDecoration__blueOctagonLarge {
   position: absolute;
   right: 0;
-  top: 360px;
+  top: 347px;
 }
 
 .whyUsDecoration__yellowHexagonConnected {
   position: absolute;
-  left: 30%;
-  top: 43%;
+  bottom: 0;
+  right: 0;
+  transform: translate(calc(50% + 20px), calc(100% + 20px));
 }
 
 .whyUsDecoration__yellowOctagon {
@@ -461,10 +462,7 @@ header img {
   }
 }
 .whyUsSection {
-  width: 100%;
-  max-width: 1346px;
-  padding-bottom: 412px;
-  margin: auto;
+  padding: 25px 287px 0;
 }
 
 .whyUsSection__heading {
@@ -477,12 +475,13 @@ header img {
   display: grid;
   margin: auto;
   grid-template-columns: auto auto auto;
-  gap: 60px;
-  row-gap: 140px;
+  gap: 100px;
+  row-gap: 150px;
 }
 
 .whyUsSection__grid-item {
   width: 85%;
+  position: relative;
 }
 
 .whyUsSection__grid-item p:not(:last-child) {

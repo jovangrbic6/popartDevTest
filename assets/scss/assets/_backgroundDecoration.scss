@@ -55,13 +55,14 @@
 .whyUsDecoration__blueOctagonLarge {
   position: absolute;
   right: 0;
-  top: 360px;
+  top: 347px;
 }
 
 .whyUsDecoration__yellowHexagonConnected {
   position: absolute;
-  left: 30%;
-  top: 43%;
+  bottom: 0;
+  right: 0;
+  transform: translate(calc(50% + 20px), calc(100% + 20px));
 }
 
 .whyUsDecoration__yellowOctagon {
