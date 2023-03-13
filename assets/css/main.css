@@ -239,14 +239,14 @@ header img {
 
 .whyUsDecoration__yellowOctagonDetailed {
   position: absolute;
-  bottom: 193px;
+  top: 131px;
   left: 124px;
 }
 
 .whyUsDecoration__arrowsIcon {
   position: absolute;
   left: 50%;
-  bottom: 98px;
+  top: 329px;
 }
 
 .testemonialDecoration__founderHexagons {
@@ -494,10 +494,7 @@ header img {
 }
 
 .testemonialSection {
-  width: 100%;
-  max-width: 1347px;
-  margin: auto;
-  padding-bottom: 380px;
+  padding: 424px 287px 0;
 }
 
 .testemonialSection__content {
