@@ -66,3 +66,9 @@
 .heroSection__imageWrapper-image {
   max-width: 100%;
 }
+
+@media screen and (max-width: 1600px) {
+  .heroSection {
+    padding: 278px 105px 268px;
+  }
+}

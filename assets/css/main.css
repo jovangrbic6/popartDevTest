@@ -196,20 +196,20 @@ header img {
 
 .heroSection__decoration-blueOctagon {
   position: absolute;
-  bottom: 4%;
+  top: 0;
   right: 1%;
 }
 
 .whatIsDecoration__arrowsIcon {
   position: absolute;
   right: 25%;
-  top: 18%;
+  top: 431px;
 }
 
 .whatIsDecoration__yellowNineCornerDetailed {
   position: absolute;
   right: 6%;
-  top: 16%;
+  top: 402px;
 }
 
 .whatIsDecoration__orangeOctagon {
@@ -402,6 +402,11 @@ header img {
   max-width: 100%;
 }
 
+@media screen and (max-width: 1600px) {
+  .heroSection {
+    padding: 278px 105px 268px;
+  }
+}
 .social {
   position: fixed;
   right: 32px;
@@ -416,8 +421,7 @@ header img {
 }
 
 .whatIsSection {
-  width: 100%;
-  max-width: 1346px;
+  padding: 244px 287px 0;
   margin: auto;
 }
 
@@ -444,7 +448,7 @@ header img {
 
 .whatIsSection__video-container {
   width: 100%;
-  padding-top: 80px;
+  margin-top: 131px;
 }
 
 .whatIsSection__video-container video {
@@ -789,6 +793,11 @@ header img {
   padding: 0 287px;
 }
 
+@media screen and (max-width: 1600px) {
+  .imageSection {
+    padding: 0 143px;
+  }
+}
 html {
   max-width: 1920px;
 }
@@ -800,8 +809,6 @@ body {
 section,
 footer {
   position: relative;
-  padding-left: 9rem;
-  padding-right: 9rem;
 }
 
 .white-text {
