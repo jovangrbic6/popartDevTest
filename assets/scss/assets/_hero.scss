@@ -72,3 +72,21 @@
     padding: 278px 105px 268px;
   }
 }
+
+@media screen and (max-width: 1100px) {
+  .heroSection {
+    padding: 278px 50px 268px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .heroSection {
+    padding: 188px 50px 268px;
+  }
+  .heroSection__content {
+    text-align: center;
+  }
+  .heroSection__sub-text {
+    text-align: center;
+  }
+}

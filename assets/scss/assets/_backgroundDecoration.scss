@@ -161,11 +161,23 @@
   right: 389px;
 }
 
-@media screen and (max-width: 1366px) {
+@media screen and (max-width: 1400px) {
+  .heroSection__decoration-yellowHexagonDetailed {
+    left: 15%;
+  }
+
   .introductionDecoration__yellowNineCornerDetailed {
     left: 60px;
   }
   .newsDecoration__yellowOctagonDetailed {
     right: 60px;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .heroSection__decoration-yellowHexagonDetailed {
+    right: 15%;
+    left: unset;
+    bottom: 20%;
   }
 }
